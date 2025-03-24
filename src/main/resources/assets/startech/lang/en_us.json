@@ -1,0 +1,12 @@
+{
+  "item.startech.nevonium": "Nevonium Ingot",
+  "item.startech.raw_nevonium": "Raw Nevonium",
+  "block.startech.nevonium_block": "Nevonium Block",
+  "block.startech.nevonium_block.tooltip": "A block made of Nevonium Ingots.",
+  "block.startech.nevonium_ore": "Nevonium Ore",
+  "block.startech.nevonium_ore.tooltip": "A rare ore that can be found deep underground.",
+  "creativetab.startech.tech_tab": "StarTech Tech",
+  "creativetab.startech.tech_tab.tooltip": "All the tech you need to get started with StarTech!",
+  "creativetab.startech.block_tab": "StarTech Blocks",
+  "creativetab.startech.block_tab.tooltip": "All the blocks you need to get started with StarTech!"
+}

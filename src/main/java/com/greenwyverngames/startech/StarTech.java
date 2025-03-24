@@ -1,5 +1,8 @@
 package com.greenwyverngames.startech;
 
+import com.greenwyverngames.startech.item.ModItems;
+import com.greenwyverngames.startech.block.ModBlocks;
+import com.greenwyverngames.startech.item.ModCreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -40,6 +43,7 @@ public class StarTech
 {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "startech";
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
@@ -52,6 +56,13 @@ public class StarTech
         // Note that this is necessary if and only if we want *this* class (startech) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        // Register the creative mode tabs
+        ModCreativeModeTabs.register(modEventBus);
+
+        // Register the items and blocks
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -68,12 +79,14 @@ public class StarTech
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
     {
+
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
