@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "startech:nevonium_block"
+    }
+  ],
+  "result": {
+    "id": "startech:nevonium",
+    "count": 9
+  }
+}

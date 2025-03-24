@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "startech:nevonium_ore"
+  },
+  "result": {
+    "id": "startech:nevonium",
+    "count": 1
+  },
+  "experience": 0.5,
+  "cookingtime": 200
+}

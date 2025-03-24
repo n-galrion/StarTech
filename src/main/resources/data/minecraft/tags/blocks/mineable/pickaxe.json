@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "startech:nevonium_ore",
+    "startech:nevonium_deepslate_ore",
+    "startech:nevonium_block"
+  ]
+}

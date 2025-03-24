@@ -5,6 +5,8 @@
   "block.startech.nevonium_block.tooltip": "A block made of Nevonium Ingots.",
   "block.startech.nevonium_ore": "Nevonium Ore",
   "block.startech.nevonium_ore.tooltip": "A rare ore that can be found deep underground.",
+  "block.startech.nevonium_deepslate_ore": "Deepslate Nevonium Ore",
+    "block.startech.nevonium_deepslate_ore.tooltip": "A rare ore that can be found deep underground.",
   "creativetab.startech.tech_tab": "StarTech Tech",
   "creativetab.startech.tech_tab.tooltip": "All the tech you need to get started with StarTech!",
   "creativetab.startech.block_tab": "StarTech Blocks",

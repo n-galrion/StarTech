@@ -33,6 +33,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.NEVONIUM_BLOCK);
                         output.accept(ModBlocks.NEVONIUM_ORE);
+                        output.accept(ModBlocks.NEVONIUM_DEEPSLATE_ORE);
                     })
                     .build());
 
