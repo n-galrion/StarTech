@@ -21,7 +21,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> NEVONIUM_BLOCK = registerBlock("nevonium_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(5f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     public static final DeferredBlock<Block> NEVONIUM_ORE = registerBlock("nevonium_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
